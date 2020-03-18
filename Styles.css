@@ -1,0 +1,16 @@
+body{
+	background-image: url('3.gif');
+	background-size: 33%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
